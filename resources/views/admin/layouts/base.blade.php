@@ -36,7 +36,10 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('admin.home') }}">Dashboard</a>
                         </li>
-                    </ul
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('admin.posts.index') }}">Post</a>
+                        </li>
+                    </ul>
 
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">
